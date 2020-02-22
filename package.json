@@ -4,6 +4,7 @@
   "description": "GraphQL API service written with Apollo",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d dist",
     "test": "jest"
   },
   "repository": {
@@ -23,6 +24,10 @@
     "winston": "^3.2.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
     "eslint": "^6.6.0",
     "eslint-plugin-jest": "^23.0.0",
     "eslint-plugin-jsdoc": "^18.0.1",
