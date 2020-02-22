@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src -d dist",
-    "test": "jest"
+    "lint": "./node_modules/.bin/eslint ./src/",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --ci --coverage"
   },
   "repository": {
     "type": "git",
