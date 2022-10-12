@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/s-a-l-t/api-service#readme",
   "dependencies": {
-    "apollo-server": "^2.10.1",
+    "apollo-server": "^2.25.4",
     "dotenv": "^8.0.0",
     "graphql": "^14.6.0",
     "winston": "^3.2.1"
